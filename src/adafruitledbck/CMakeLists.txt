@@ -1,0 +1,5 @@
+set (libname "adafruitledbck")
+set (libdescription "upm adafruitledbck LED backpack")
+set (module_src ${libname}.cxx)
+set (module_h ${libname}.h)
+upm_module_init()
